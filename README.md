@@ -1,5 +1,9 @@
 ### What is this?
-Useful extensions for UIKit in Swift.
+Useful extensions for UIKit in Swift as follows.
+```swift
+// Create UIColor instance by hex integer value
+let darkOrange = UIColor(hex:0xFF8C00)
+```
 
 ### How to use
 Copy *.swift to your project.
