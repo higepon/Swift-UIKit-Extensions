@@ -20,7 +20,7 @@ Copy *.swift to your project.
 | ---- | --------------- |
 |func centerHorizontally(parentWidth: Double) | Centering UIView holizontally. See [Examples](#examples) below.|
 
-### Examples [Examples]
+### Examples [Examples] ##
 ```swift
 // UIControl
 let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton!
