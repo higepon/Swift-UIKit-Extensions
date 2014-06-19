@@ -8,8 +8,8 @@
 import UIKit
 
 extension UIView {
-    func centerHorizontally(parentWidth: Float) {
-        let centerX = floorf((parentWidth - frame.size.width) / 2.0)
+    func centerHorizontally(parentWidth: CGFloat) {
+        let centerX = CGFloat(floor(Double(CGFloat(parentWidth - frame.size.width) / CGFloat(2.0))))
         self.frame = CGRect(x:centerX, y:frame.origin.y, width:frame.size.width, height:frame.size.height)
     }
 }
