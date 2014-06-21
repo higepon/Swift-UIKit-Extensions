@@ -24,6 +24,12 @@ Copy *.swift to your project.
 | ---- | --------------- |
 |func centerHorizontally(parentWidth: Double) | Centering UIView holizontally. See [Examples](#examples) below.|
 
+#### UITableView
+| Method | Description |
+| ---- | --------------- |
+|func scrollToBottom(animated: Bool = true) | tableView.scrollToBottom() |
+
+
 ### Examples
 ```swift
 // UIControl
@@ -40,5 +46,8 @@ title.text = "Hello, World"
 title.sizeToFit()
 title.centerHorizontally(320)
 ```
+
+// UITableView
+self.tableView.scrollToBottom()
 ### License
 The MIT License (MIT)
