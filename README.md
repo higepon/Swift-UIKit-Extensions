@@ -45,9 +45,11 @@ let title = UILabel(frame: CGRect(x: 50, y: 80, width: 200, height: 50))
 title.text = "Hello, World"
 title.sizeToFit()
 title.centerHorizontally(320)
-```
 
 // UITableView
 self.tableView.scrollToBottom()
+```
+
+
 ### License
 The MIT License (MIT)
