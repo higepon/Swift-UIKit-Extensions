@@ -8,6 +8,31 @@ let darkOrange = UIColor(hex:0xFF8C00)
 ### How to use
 Copy *.swift to your project.
 
+
+### Examples
+```swift
+// UIControl
+let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton!
+button.enable()
+button.disable()
+
+// UIColor
+let darkOrange = UIColor(hex:0xFF8C00)
+
+// UIView
+let title = UILabel(frame: CGRect(x: 50, y: 80, width: 200, height: 50))
+title.text = "Hello, World"
+title.sizeToFit()
+title.centerHorizontally(320)
+
+// UITableView
+self.tableView.scrollToBottom()
+
+// UIConstants
+let width = UIConstants.screenWidth()
+let height = UIConstants.screenHeight()
+```
+
 #### UIControl
 | Method | Description |
 | ---- | --------------- |
@@ -34,30 +59,6 @@ Copy *.swift to your project.
 | ---- | --------------- |
 |func screenWidth() | UIConstants.screenWidth() |
 |func screenHeight() | UIConstants.screenHeight() |
-
-
-### Examples
-```swift
-// UIControl
-let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton!
-button.enable()
-button.disable()
-
-// UIColor
-let darkOrange = UIColor(hex:0xFF8C00)
-
-// UIView
-let title = UILabel(frame: CGRect(x: 50, y: 80, width: 200, height: 50))
-title.text = "Hello, World"
-title.sizeToFit()
-title.centerHorizontally(320)
-
-// UITableView
-self.tableView.scrollToBottom()
-```
-// UIConstants
-let width = UIConstants.screenWidth()
-let height = UIConstants.screenHeight()
 
 ### License
 The MIT License (MIT)
