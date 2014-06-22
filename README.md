@@ -34,8 +34,8 @@ Copy *.swift to your project.
 ```swift
 // UIControl
 let button = UIButton.buttonWithType(UIButtonType.Custom) as UIButton!
-button!.enable()
-button!.disable()
+button.enable()
+button.disable()
 
 // UIColor
 let darkOrange = UIColor(hex:0xFF8C00)
