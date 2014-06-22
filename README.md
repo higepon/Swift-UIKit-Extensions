@@ -29,6 +29,12 @@ Copy *.swift to your project.
 | ---- | --------------- |
 |func scrollToBottom(animated: Bool = true) | tableView.scrollToBottom() |
 
+#### UIConstants
+| Method | Description |
+| ---- | --------------- |
+|func screenWidth() | UIConstants.screenWidth() |
+|func screenHeight() | UIConstants.screenHeight() |
+
 
 ### Examples
 ```swift
@@ -49,7 +55,9 @@ title.centerHorizontally(320)
 // UITableView
 self.tableView.scrollToBottom()
 ```
-
+// UIConstants
+let width = UIConstants.screenWidth()
+let height = UIConstants.screenHeight()
 
 ### License
 The MIT License (MIT)
