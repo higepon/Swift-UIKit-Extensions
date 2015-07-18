@@ -19,6 +19,9 @@ button.disable()
 // UIColor
 let darkOrange = UIColor(hex:0xFF8C00)
 
+// Web Colors
+UIColor().PinkWebColor()
+
 // UIView
 let title = UILabel(frame: CGRect(x: 50, y: 80, width: 200, height: 50))
 title.text = "Hello, World"
